@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+/* import CityList from './Components/CityList'; */
+/* import Mock from './Components/Mock';
+ *//* import MyCalendar from './Components/MyCalendar'; */
+/* import Parent from './Components/Parent'; */
+/* import TodoApp from './Components/TodoApp'; */
+
+import './index.css';
+
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
 
