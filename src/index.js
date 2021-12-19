@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-/* import CityList from './Components/CityList'; */
-/* import Mock from './Components/Mock';
- *//* import MyCalendar from './Components/MyCalendar'; */
-/* import Parent from './Components/Parent'; */
-/* import TodoApp from './Components/TodoApp'; */
+
 
 import './index.css';
 
@@ -13,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <App/>,
+  <TodoApp/>,
   document.getElementById('root')
 );
 
